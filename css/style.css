@@ -1,0 +1,110 @@
+* {
+padding:0;
+margin:0;
+box-sizing:border-box
+}
+body{
+	font-size:16px;
+	font-family: 'Raleway', sans-serif;
+}
+.awards-sec {
+	margin-top:0rem;
+	background-image:url("background.png");
+	background-position:center center;
+    background-size:cover;
+	height:90vh;
+}
+.awards-container {
+	width:90%;
+	margin:auto;
+}
+.awards-title {
+	padding:3rem 0;
+	margin-bottom:3rem;
+	text-align:center;
+}
+.awards-title h2 {
+	font-size:2.2rem;
+	color:#fff;
+}
+.awards-title p {
+	margin-top:1rem;
+	font-size:1rem;
+	font-weight:600;	
+	color:red; 
+}
+.awards-row {
+	display:flex;
+	gap:6%;
+	width:80%;
+	margin:auto;
+	
+}
+.awards-col {
+	padding:0 35px;
+	width:25%;
+	text-align:center;
+	margin-bottom:5rem;
+}
+.content{
+	
+	padding:30px 0;
+	border:1px solid #fff;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 4px #6f2330;
+}
+.content i {
+	font-size:2rem;
+	color:#6f2330;
+	padding: 0 10px;
+}
+.content p {
+	margin-top:0.7rem;
+	font-size:2rem;
+	color:#fff;
+	margin:0 12px;
+}
+.awards-col h3 {
+	margin-top:1rem;
+	text-align:center;
+	color:#fff;
+	font-size:1rem;
+}
+
+
+@media (min-width:278px) and (max-width:767px){
+	.awards-row {
+	display:flex;
+	flex-direction:column;
+}
+.awards-col {
+	width:100%;	
+}
+	.awards-sec {
+	height:210vh;
+}
+.content{
+	padding:55px 0;
+	
+}
+}
+
+@media (min-width:767px) and (max-width:1020px){
+	.awards-row {
+	display:flex;
+	flex-wrap:wrap;
+	gap:0%;
+	width:100%;
+	
+}
+.awards-col {
+	width:50%;	
+}
+	.awards-sec {
+	height:100vh;
+}
+.content{
+	padding:75px 0;
+	
+}
+}
